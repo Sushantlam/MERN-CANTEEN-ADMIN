@@ -1,0 +1,79 @@
+.mainContainer{
+    display: flex;
+   
+}
+.mainHome{
+    
+    flex: 7;
+
+}
+
+.delete{
+    background-color: rgb(255, 9, 9);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.number{
+    font-size: 70px;
+}
+
+.profileIcon{
+    font-size: 90px;
+    color: black;
+}
+
+.contentBox{
+    display: flex;
+   margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.subBox{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box1{
+    background-color: rgb(247, 217, 217);
+    min-width: 380px;
+     min-height: 220px; 
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.chartFeatured{
+    display: flex;
+    gap:10px;
+    margin-left: 10px;
+     margin-top: 10px;
+     width: 100%;
+}
+
+.mainTable{
+    width: 100%;
+}
+
+.searchingField{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    margin: 10px 0;
+}
+
+.searchFilter{
+    height: 20px;
+    width: 260px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

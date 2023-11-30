@@ -1,0 +1,80 @@
+.sideBar{
+    
+    flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  background-color: pink;
+  /* position: fixed; */
+    
+}
+
+.sideBarcontent{
+    margin-top: 70px;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Mainhead{
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.mainHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+.icon{
+    margin-right: 10px;
+    font-size: 1.2em;
+    background-color: #ffc0cb;
+    
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.heading{
+   font-weight: 2rem;
+   font-size: 20px;
+   background-color: pink;
+   text-decoration: none;
+}
+p{
+    padding-left: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+li{
+    list-style: none;
+    display: flex;
+   text-decoration: none;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+}
+
+li:hover{
+    background-color: rgb(206, 216, 219);
+}
+
+span{
+    color: #888;
+    text-decoration: none;
+}

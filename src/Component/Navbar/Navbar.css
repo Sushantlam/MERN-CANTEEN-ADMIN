@@ -1,0 +1,55 @@
+.nav{
+    display: flex;
+    height: 70px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.navHead-left{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    top:10px;
+    
+    right: 30px;
+   
+   
+    
+}
+
+.darkmode{
+    font-size: 30px;
+}
+.profileImg{
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.userName{
+   
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.profileSet{
+    position: relative;
+}
+
+.logout{
+    position: absolute;
+    
+    left: -10px;
+    bottom: -30px;
+    background-color: rgb(254, 254, 254);
+    width: 100vw;
+    
+}
+.logoutBtn{
+    padding: 5px;
+    overflow: hidden;
+    
+}

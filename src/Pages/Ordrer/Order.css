@@ -1,0 +1,4 @@
+.tableFlex{
+    display: flex;
+    justify-content: space-between;
+}

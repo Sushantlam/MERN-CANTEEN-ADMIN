@@ -1,0 +1,93 @@
+.loginContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(188,188,188,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(188,188,188,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(188,188,188,0.75);
+
+    overflow: hidden;
+    
+}
+.loginLeft{
+    
+    height: 500px;
+    width: 100%;
+
+   
+   
+}.loginRight{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.flexLogin{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.loginImage{
+    height: 500px;
+}
+
+.loginRIGHT{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 10px;
+    height: 100%;
+    
+}
+.signUp{
+    text-decoration: none;
+    color:rgb(255, 117, 75)
+}
+.signUp:hover{
+  cursor: pointer;
+  color: rgb(221, 221, 155);
+}
+
+.loginRIGHT input{
+    border: none;
+}
+
+.admin{
+    font-size: 15px;
+}
+
+.loginRIGHT input{
+    border: 0.3px solid gray;
+    padding: 10px;
+}
+
+.loginBtn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.mainLogin{
+    background-color: rgb(216, 244, 255);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginLeft img{
+   
+    height: 100%;
+    width: 100%;
+}
