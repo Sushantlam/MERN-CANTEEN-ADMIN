@@ -1,7 +1,7 @@
 import { createContext, useEffect, useReducer } from "react"
 
  const Initialvalue={
-    email : JSON.parse(localStorage.getItem("email")) || null ,
+    email : JSON.parse(localStorage.getItem("admin")) || null ,
     loading: false,
     error: null
  }
@@ -45,7 +45,7 @@ export const AuthProvider =({children})=>{
  
     useEffect(() => {
     
-        localStorage.setItem("email", JSON.stringify(state.email))
+        localStorage.setItem("admin", JSON.stringify(state.email))
     }, [state.email])
 
     return (<AuthContext.Provider value={{...state, dispatch}}>{children}</AuthContext.Provider>)

@@ -22,7 +22,7 @@ const App = () => {
   const ProtectedRoutes =({children})=>{
     const {email}= useContext(AuthContext)
     console.log(email);
-    if(!email===true){
+    if(!email){
       return <Navigate to='/login'/>
     }
     
